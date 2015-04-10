@@ -1,0 +1,24 @@
+{
+	"name": "rhincodon/parsers",
+	"description": "Some text parsers",
+	"license": "MIT",
+	"keywords": ["parsers"],
+	"authors": [
+		{
+			"name": "rhincodon",
+			"email": "rhinodontypicus@gmail.com"
+		}
+	],
+	"require": {},
+	"require-dev": {
+		"phpspec/phpspec": "~2.0"
+	},
+	"config": {
+		"bin-dir": "bin"
+	},
+	"autoload": {
+		"psr-4": {
+			"Rhincodon\\Parsers\\": "src/"
+		}
+	}
+}

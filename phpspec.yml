@@ -1,0 +1,4 @@
+suites:
+    parsers_suite:
+        namespace: Rhincodon\Parsers
+        psr4_prefix: Rhincodon\Parsers
